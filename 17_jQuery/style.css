@@ -1,0 +1,12 @@
+.big-title {
+    color:brown;
+    font-size: 4rem;
+}
+
+.boxes {
+    background-color: blueviolet;
+    color : white;
+    padding: 1rem;
+    border-radius: 5px 25px;
+    border-style: none;
+}
