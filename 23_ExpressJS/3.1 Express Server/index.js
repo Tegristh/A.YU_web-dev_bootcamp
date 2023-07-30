@@ -7,12 +7,21 @@ app.get("/", (req, res) => {
     res.send("<h1>Hello World! </h1>")
 })
 
-app.get("/about", (req, res) => {
-    res.send("<h1>About Me</h1>")
+app.post("/register", (req, res) => {
+    //
+    res.sendStatus(201);
 })
 
-app.get("/contact", (req, res) => {
-    res.send("<h1>Contact Me</h1>")
+app.put("/user/baptiste", (req, res) => {
+    res.sendStatus(200);
+})
+
+app.patch("/user/baptiste", (req, res) => {
+    res.sendStatus(200);
+})
+
+app. delete("/user/baptiste", (req, res) => {
+    res.sendStatus(200)
 })
 
 app.listen(port, () => {
